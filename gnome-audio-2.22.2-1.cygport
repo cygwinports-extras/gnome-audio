@@ -1,0 +1,10 @@
+inherit gnome2
+
+DESCRIPTION="GNOME desktop sounds"
+
+src_compile() { :; }
+
+src_install() {
+	cd ${S}
+	cyginstall
+}

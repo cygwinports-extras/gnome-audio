@@ -1,0 +1,65 @@
+gnome-audio
+-------------------------------------------
+Default sound effects for the GNOME Desktop
+
+Build requirements:
+  cygport-0.3.11-1
+  make-3.81-1
+  sed-4.1.5-2
+
+Canonical homepage:
+  http://www.gnome.org/
+
+Canonical download:
+  ftp://ftp.gnome.org/pub/GNOME/sources/gnome-audio/
+
+-------------------------------------------
+
+Build instructions:
+  unpack gnome-audio-2.22.2-1-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  cygport ./gnome-audio-2.22.2-1.cygport all
+
+This will create:
+  /usr/src/gnome-audio-2.22.2-1-src.tar.bz2
+  /usr/src/gnome-audio-2.22.2-1.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary package:
+
+  /usr/share/doc/gnome-audio-2.22.2/COPYING
+  /usr/share/doc/gnome-audio-2.22.2/ChangeLog
+  /usr/share/doc/gnome-audio-2.22.2/README
+  /usr/share/sounds/card_shuffle.wav
+  /usr/share/sounds/email.wav
+  /usr/share/sounds/error.wav
+  /usr/share/sounds/generic.wav
+  /usr/share/sounds/gtk-events/activate.wav
+  /usr/share/sounds/gtk-events/clicked.wav
+  /usr/share/sounds/gtk-events/toggled.wav
+  /usr/share/sounds/info.wav
+  /usr/share/sounds/login.wav
+  /usr/share/sounds/logout.wav
+  /usr/share/sounds/panel/slide.wav
+  /usr/share/sounds/phone.wav
+  /usr/share/sounds/question.wav
+  /usr/share/sounds/shutdown1.wav
+  /usr/share/sounds/startup3.wav
+  /usr/share/sounds/warning.wav
+
+------------------
+
+Port Notes:
+
+----- version 2.22.2-1 -----
+Version bump for GNOME 2.22.
+
+----- version 2.0.0-1 -----
+Initial release for Cygwin.
+
+
+Cygwin port maintained by:
+http://cygwinports.dotsrc.org/
